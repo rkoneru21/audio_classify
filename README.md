@@ -18,6 +18,15 @@ You can install the required packages using pip
 $ pip install torch torchaudio numpy pyaudio matplotlib
 ````
 
+## PoC Structure
+
+- `LiveVAD.py` - Python script that uses SileroVAD to detect human voice from live audio. Outputs the timestamps of the live audio to a GUI
+- `LiveVADwithGraph.py` - Python script that uses SileroVAD to detect human voice from live audio. Outputs a live updated waveform graph with human voice outlined in yellow
+- `README.md` - README file
+
+
+
+
 
 # GenAIPlaylist
 
