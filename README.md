@@ -11,6 +11,12 @@ This proof of concept demonstrates the detection of human voice in a live audio 
 - Python 3.8 - 3.11.7
   - SileroVAD doesn't work on Python 3.12 at the time of writing
 
+### Install Required Packages
+
+You can install the required packages using pip
+````
+$ pip install torch torchaudio numpy pyaudio matplotlib
+````
 
 
 # GenAIPlaylist
