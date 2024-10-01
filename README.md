@@ -1,4 +1,4 @@
-# Live Noise Recognition
+# AI Audio Classification
 
 ## Overview
 
@@ -18,7 +18,7 @@ You can install the required packages using pip
 $ pip install torch torchaudio numpy pyaudio matplotlib
 ````
 
-## PoC Structure
+## Structure
 
 - `LiveVAD.py` - Python script that uses SileroVAD to detect human voice from live audio. Outputs the timestamps of the live audio to a GUI. Executeable.
   
